@@ -1,0 +1,23 @@
+<html>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+
+        button{
+            background-color: darkgoldenrod;
+        }
+    </style>
+    <body>
+        <p>to display date</p>
+
+        <button onclick="displaydata()"> the time is</button>
+
+        <script>
+        function displaydata(){
+            document.getElementById("demo").innerHTML=Date();
+        }
+        </script>
+        <p id="demo"></p>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <h1>javascript array methods</h1>
+        <p>push method   push()</p>
+        <button onclick="MyFunction()">click me</button>
+
+        <p id="demo"></p>
+    </head>
+
+    <script>
+        var fruits=["mango","apple","banana","kiwi"];
+        document.getElementById("demo").innerHTML=fruits;
+        function MyFunction(){
+            fruits.push("lemon");
+            document.getElementById("demo").innerHTML=fruits;
+
+        }
+    </script>
+</html>
