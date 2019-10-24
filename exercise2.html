@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <p id="demo"> January</p>
+       <button onclick="changeMonth()">change Month</button>
+
+       <script>
+           var month_index = 0 ;
+          var months_of_year = [  "January", "February", "March", "April",
+     "May", "June", "July", "August",
+         "September", "October", "November", "December" ] ;
+       function changeMonth() {
+        month_index+=1;
+           document.getElementById("demo").innerHTML=months_of_year[month_index];
+
+       }
+       </script>
+    </body>
+</html>

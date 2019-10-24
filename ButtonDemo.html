@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <p id="demo">   Monday</p>
+       <button onclick="changeDay()">change Day</button>
+
+       <script>
+           var day_index = 0 ;
+          var days_of_week = [ "Monday", "Tuesday", "Wednesday", "Thursday",
+           "Friday", "Saturday", "Sunday" ] ;
+       function changeDay() {
+        day_index+=1;
+           document.getElementById("demo").innerHTML=days_of_week[day_index];
+
+       }
+       </script>
+    </body>
+</html>
